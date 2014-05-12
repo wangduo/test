@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout 
+        android:layout_height="28dp"
+        android:layout_width="fill_parent" 
+        android:background="@drawable/top_bg"
+        >
+        <TextView 
+            android:layout_height="18dp"
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+            android:paddingLeft="20dp"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:text="可用内存信息"/>
+        <TextView 
+            android:id="@+id/memory_info"
+            android:layout_height="18dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="#000"/>        
+        
+    </RelativeLayout>
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <ListView 
+            android:id="@+id/process_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"/>
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="killAllProcess"
+            android:text="杀死所有进程"/>
+    </LinearLayout>
+        
+</LinearLayout>

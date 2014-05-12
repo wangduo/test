@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Button android:text="自动ip拨号" 
+    android:id="@+id/ipdail" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:onClick="ipdailSetting">
+    </Button>
+    <Button android:text="电话归属地查询" 
+    android:id="@+id/findaddress" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="findAddress"
+    >
+    </Button>
+    <Button
+    	android:id="@+id/setting_quick_call"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="设置特殊号码启动安全卫士项"
+    	android:onClick="sttingNumber"
+    />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<ImageView
+	 	android:id="@+id/protect_image"
+	 	android:src="@drawable/noprotecting"
+	 	android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	/>
+	<CheckBox
+		android:id="@+id/protect_checkbox"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:text="暂停保护"
+	/>
+	<Button 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/protect_image"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="16dp"
+		android:text="进入设置向导"
+		android:onClick="loadConfigSetup" 
+	/>
+</RelativeLayout>

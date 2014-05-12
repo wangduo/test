@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<CheckBox
+		android:id="@+id/show_address_checkbox"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:text="@string/address_service_closed"
+	/>
+	<Button  
+    android:id="@+id/button1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/show_address_checkbox" 
+    android:layout_alignParentLeft="true"
+    android:onClick="changeViewPosition"
+    android:text="更改来电显示提示框的位置"
+    />
+	
+</RelativeLayout>

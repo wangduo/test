@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobilesafe</string>
+    <string name="main_lable">主界面</string>
+    <string name="lost_protect">手机防盗</string>
+    <string name="please_update">请升级</string>
+    <string name="update_ok">确定</string>
+    <string name="update_cancle">取消</string>
+    <string name="downing">正在下载请稍候.....</string>
+     <string name="userguide1">用户向导1/4</string>
+    <string name="userguide2">用户向导2/4</string>
+    <string name="userguide3">用户向导3/4</string>
+    <string name="userguide4">用户向导4/4</string>
+    <string name="selectcontact">选择联系人</string>
+    <string name="lost_protect_setting">设置</string>
+    <string name="local">本地号码</string>
+    <string name="emulator">模拟器</string>
+    <string name="stting_center">设置中心</string>
+    <string name="address_service_open">来电归属地显示开启</string>
+    <string name="address_service_closed">来电归属地显示关闭</string>
+    <string name="activity_tools">常用工具</string>
+    <string name="drag_view">更改来电显示的位置</string>
+    <string name="call_sms_safe">通讯卫士</string>
+    <string name="options">选项</string>
+    <string name="menu_exit">退出</string>
+    <string name="update_version">检查更新</string>
+    <array name="choice">
+    	<item name = "start">启动程序</item>
+    	<item name = "showdetail"> 显示详细信息</item>
+    	<item name ="uninstalll">卸载程序</item>
+    </array>
+    <array name="taskchoice">
+    	<item name = "kill">杀死进程</item>
+    	<item name = "showdetail"> 显示详细信息</item>
+    	<item name ="start">激活这个进程</item>
+    	<item name ="uninstalll">卸载程序</item>
+    </array> 
+    
+</resources>

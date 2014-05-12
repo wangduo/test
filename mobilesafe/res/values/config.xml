@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_url">http://mobilesafe.googlecode.com/files/mobilesafe_version.xml</string>
+    <string name="debuglevel">0</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logo2"
+    android:id="@+id/rl_splash_id"
+    >
+	<ProgressBar
+		android:id="@+id/splash_pb"  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_marginBottom="10dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true"
+    />
+    <TextView 
+    	android:id="@+id/copydatabase" 
+		android:layout_width="wrap_content" 
+		android:text="初始化数据库" 
+		android:layout_height="wrap_content" 
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:visibility="invisible"
+ 	/>
+</RelativeLayout>
